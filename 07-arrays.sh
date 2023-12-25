@@ -1,4 +1,4 @@
-
+#!/bin/bash
 
 FRUITS=("Apple" "Banana" "Mango")
 
