@@ -11,3 +11,11 @@ else
 fi
 
 yum install mysql -y
+
+if [ $? -ne 0 ]
+then
+  echo "ERROR:: installing MYSQL has failed"
+  exit
+  else
+      echo "installing MYSQL success"
+ fi     
