@@ -8,4 +8,5 @@ then
     exit 1 # you can give other than 0
 else
     echo "you are root user"
-fi # fi means reverse of fi, indicating condition end
+
+yum install mysql -y
