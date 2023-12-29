@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ID=$(id -u)
-TIMESTAMP=$(date +%Y-%m-%d %H:%M:%S)
+TIMESTAMP=$(date +%F-%H-%M-%S)
 
 echo "script name: $0"
 
